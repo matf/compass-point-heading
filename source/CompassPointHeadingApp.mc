@@ -2,10 +2,14 @@ using Toybox.Application as App;
 
 class CompassPointHeadingApp extends App.AppBase {
 
-    function onStart() {
+	function initialize() {
+		App.AppBase.initialize();
+	}
+
+    function onStart(state) {
     }
 
-    function onStop() {
+    function onStop(state) {
     }
 
     function getInitialView() {

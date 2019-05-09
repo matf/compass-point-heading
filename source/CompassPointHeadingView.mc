@@ -4,6 +4,7 @@ using Toybox.Math as Math;
 class CompassPointHeadingView extends Ui.SimpleDataField {
 
     function initialize() {
+    	Ui.SimpleDataField.initialize();
         label = "Heading";
     }
 
